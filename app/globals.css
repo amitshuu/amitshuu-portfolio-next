@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.section-center {
+  @apply px-4 lg:px-24;
+}
+.dot .react-multi-carousel-dot button {
+  width: 15px;
+  height: 15px;
+}
+
+.dot .react-multi-carousel-dot--active button {
+  @apply bg-primary-blue;
+}
+
+.text-elipse-custom {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+@keyframes up-down {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+.animate-up-down {
+  animation: up-down 1.5s ease-in-out infinite;
+}
+
+.react-multiple-carousel__arrow {
+  background: rgba(0, 0, 0, 0.8);
+}
