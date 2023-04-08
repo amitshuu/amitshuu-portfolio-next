@@ -19,7 +19,7 @@ const AboutSection = () => {
               <p className="py-4 text-5xl text-white lg:text-7xl ">
                 About <span className="text-primary-blue">Me</span>
               </p>
-              <p className="hidden mb-5 text-xl font-normal text-center text-gray-300 md:block md:text-2xl xl:w-3/4">
+              <p className="hidden mb-5 text-xl font-normal leading-loose text-center text-gray-300 md:block md:text-xl xl:w-3/4">
                 Hi, my name is Amit, and I'm a 23-year-old full-stack web
                 developer with expertise in both front-end and back-end
                 development. I specialize in a range of technologies, including

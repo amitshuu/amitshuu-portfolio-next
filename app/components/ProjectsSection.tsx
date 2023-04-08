@@ -38,7 +38,7 @@ const ProjectsSection = () => {
             <p className="mb-6 text-4xl text-center text-white lg:text-7xl ">
               Recent <span className="text-primary-blue">Projects</span>
             </p>
-            <p className="w-11/12 m-0 mb-0 text-2xl text-center text-gray-300 lg:w-2/4 ">
+            <p className="w-11/12 m-0 mb-0 text-xl text-center text-gray-300 md:text-2xl lg:w-2/4 ">
               In this section, you'll find some of the recent website projects
               I've been working on. Take a closer look and explore the various
               design styles, features, and functionalities that I can bring to
