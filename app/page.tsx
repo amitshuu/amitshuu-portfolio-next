@@ -5,9 +5,15 @@ import ProjectsSection from "./components/ProjectsSection";
 import ServicesSection from "./components/ServicesSection";
 import SkillsSection from "./components/SkillsSection";
 
+const onDevelopment = process.env.ON_DEVELOPMENT;
+
 export default function Home() {
   return (
-    <main className="w-full h-full bg-dark-bg debug-screens">
+    <main
+      className={`w-full h-full bg-dark-bg ${
+        onDevelopment ? "debug-screens" : ""
+      }`}
+    >
       <HeroSection />
       <AboutSection />
       <ServicesSection />
