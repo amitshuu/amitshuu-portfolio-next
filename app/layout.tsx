@@ -12,7 +12,7 @@ export const metadata = {
       "I am a fullstack web developer offering web development services including creating landing pages and complex web applications, Shopify ecommerce development, website design, and website maintenance. Contact me to bring your website to life!",
     type: "website",
     images: {
-      url: "http://localhost:3000/computer.png",
+      url: "https://amitshuu-portfolio-next.vercel.app/computer.png",
       width: 800,
       height: 600,
       alt: "A description of the image",
