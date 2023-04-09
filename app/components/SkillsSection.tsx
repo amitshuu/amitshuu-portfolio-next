@@ -5,10 +5,10 @@ const SkillsSection = () => {
   return (
     <section className="flex items-center justify-center px-4 py-20 md:px-8 bg-dark-bg">
       <div className="container flex flex-col items-center justify-center">
-        <h1 className="mb-6 text-4xl text-white md:text-7xl">
+        <p className="mb-6 text-4xl text-white md:text-7xl">
           Technology
           <span className=" text-primary-blue"> Stack</span>
-        </h1>
+        </p>
         <p className="max-w-3xl m-0 mb-6 text-xl text-center text-gray-300 md:text-2xl">
           My technology stack is built on the latest tools and platforms,
           including React for dynamic web applications, Express for server-side

@@ -38,9 +38,9 @@ const TestimoialsCarousel = ({
               <span className="inline-block w-10 h-1 mt-8 mb-6 rounded bg-primary-blue"></span>
               <div className="flex items-center justify-center">
                 <div className="flex flex-col items-center">
-                  <h2 className="font-medium tracking-wider text-white uppercase text-md title-font">
+                  <p className="font-medium tracking-wider text-white uppercase text-md title-font">
                     {item.clientName}
-                  </h2>
+                  </p>
                   <p className="mb-3 text-center text-gray-500 uppercase text-md">
                     {item.clientBuisness}
                   </p>

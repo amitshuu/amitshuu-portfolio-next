@@ -21,12 +21,12 @@ const ProjectCard = ({ project, handleModal }: Props) => {
         />
         <div className="h-full bg-dark-bg">
           <div className="px-5 py-3 md:p-6 ">
-            <h2 className="mb-1 text-xs font-medium tracking-widest text-gray-400 uppercase title-font">
+            <p className="mb-1 text-xs font-medium tracking-widest text-gray-400 uppercase title-font">
               {projectCategorySplitted}
-            </h2>
-            <h1 className="inline-block mb-3 text-xl font-medium text-white border-b-2 title-font border-primary-blue">
+            </p>
+            <p className="inline-block mb-3 text-xl font-medium text-white border-b-2 title-font border-primary-blue">
               {project.projectName}
-            </h1>
+            </p>
             <p className="w-full mb-3 text-lg leading-relaxed text-gray-300 md:mb-5 text-elipse-custom md:max-h-20">
               {project.projectDesc}
             </p>
