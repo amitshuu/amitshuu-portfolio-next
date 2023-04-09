@@ -12,6 +12,7 @@ const Footer = () => {
             return (
               <Link
                 to={links.to}
+                role="link"
                 duration={500}
                 smooth={true}
                 className="text-lg text-white transition-colors duration-150 cursor-pointer hover:text-primary-blue "

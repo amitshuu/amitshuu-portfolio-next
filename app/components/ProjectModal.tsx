@@ -100,6 +100,7 @@ const ProjectModal = ({ isModalOpen, projectDetails, closeModal }: IProps) => {
                   <button className="px-6 py-2 text-black transition-all duration-100 rounded-lg hover:text-white xl:px-8 hover:bg-primary-blue-hover bg-primary-blue hover:transform">
                     <Link
                       to="contact-section"
+                      role="link"
                       smooth={true}
                       duration={500}
                       onClick={closeModal}

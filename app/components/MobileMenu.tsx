@@ -46,6 +46,7 @@ const MobileMenu = ({ setOpenMobileNav, openMobileNav }: Props) => {
                   to={navLink.to}
                   duration={500}
                   smooth={true}
+                  role="link"
                   onClick={() => setOpenMobileNav(false)}
                 >
                   {navLink.name}

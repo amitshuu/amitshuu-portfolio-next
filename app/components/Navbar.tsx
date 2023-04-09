@@ -37,6 +37,7 @@ const Navbar = () => {
                 <Link
                   to={navLink.to}
                   duration={500}
+                  role="link"
                   smooth={true}
                   className={`hover:text-primary-blue px-5 ${
                     navLink.name === "Home" ? "text-primary-blue" : "text-white"
