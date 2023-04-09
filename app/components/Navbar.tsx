@@ -33,17 +33,19 @@ const Navbar = () => {
         <ul className="hidden px-10 text-xl cursor-pointer md:flex">
           {nav_link.map((navLink) => {
             return (
-              <Link
-                to={navLink.to}
-                duration={500}
-                smooth={true}
-                className={`hover:text-primary-blue px-5 ${
-                  navLink.name === "Home" ? "text-primary-blue" : "text-white"
-                }`}
-                key={navLink.name}
-              >
-                {navLink.name}
-              </Link>
+              <li>
+                <Link
+                  to={navLink.to}
+                  duration={500}
+                  smooth={true}
+                  className={`hover:text-primary-blue px-5 ${
+                    navLink.name === "Home" ? "text-primary-blue" : "text-white"
+                  }`}
+                  key={navLink.name}
+                >
+                  {navLink.name}
+                </Link>
+              </li>
             );
           })}
         </ul>

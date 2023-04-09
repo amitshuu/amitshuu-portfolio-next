@@ -33,21 +33,16 @@ const HeroSection = () => {
           </h3>
           <div className="flex flex-col items-center xl:items-start ">
             <div className="flex flex-row mb-5">
-              <a
-                href="/Amit_Shukrun_CV.pdf"
-                download
-                className="px-3 py-3 mr-5 text-lg text-black transition-all duration-100 rounded-lg hover:bg-primary-blue-hover bg-primary-blue hover:trasnform hover:scale-105 hover:text-white"
-              >
-                Download CV
-              </a>
-              <Link
-                to="contact-section"
-                duration={500}
-                smooth={true}
-                className="px-3 py-3 mr-5 text-lg text-black transition-all duration-100 rounded-lg cursor-pointer hover:bg-primary-blue-hover bg-primary-blue hover:transform hover:scale-105 hover:text-white "
-              >
-                Let's talk
-              </Link>
+              <button className="px-3 py-3 mr-5 text-lg text-black transition-all duration-100 rounded-lg cursor-pointer hover:bg-primary-blue-hover bg-primary-blue hover:transform hover:scale-105 hover:text-white ">
+                <a href="/Amit_Shukrun_CV.pdf" download>
+                  Download CV
+                </a>
+              </button>
+              <button className="px-3 py-3 mr-5 text-lg text-black transition-all duration-100 rounded-lg cursor-pointer hover:bg-primary-blue-hover bg-primary-blue hover:transform hover:scale-105 hover:text-white ">
+                <Link to="contact-section" duration={500} smooth={true}>
+                  Let's talk
+                </Link>
+              </button>
             </div>
             <div className="flex justify-center w-full mb-6 xl:mb-0">
               <SocialLinks />
