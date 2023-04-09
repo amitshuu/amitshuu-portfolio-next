@@ -38,13 +38,15 @@ const MobileMenu = ({ setOpenMobileNav, openMobileNav }: Props) => {
         <ul className="flex flex-col items-center justify-center w-full py-6 shadow-md bg-primary-section">
           {nav_link.map((navLink) => {
             return (
-              <li className="my-4" key={navLink.name}>
+              <li
+                className="my-4 text-xl text-white duration-150 cursor-pointer hover:text-primary-blue"
+                key={navLink.name}
+              >
                 <Link
                   to={navLink.to}
                   duration={500}
                   smooth={true}
                   onClick={() => setOpenMobileNav(false)}
-                  className="text-xl text-white duration-150 cursor-pointer hover:text-primary-blue"
                 >
                   {navLink.name}
                 </Link>
