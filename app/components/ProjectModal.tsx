@@ -30,9 +30,6 @@ const ProjectModal = ({ isModalOpen, projectDetails, closeModal }: IProps) => {
       document.body.style.overflow = "auto";
     };
   }, [isModalOpen]);
-
-  console.log(isModalOpen);
-
   return (
     <div className="fixed inset-0 z-50 w-full h-screen ">
       <div className="z-50 flex items-center justify-center ">

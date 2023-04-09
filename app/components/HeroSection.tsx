@@ -16,7 +16,7 @@ const HeroSection = () => {
           <h1 className="pb-5 text-4xl text-white md:text-5xl xl:text-5xl">
             Amit Shukrun
           </h1>
-          <h2 className="text-2xl text-center text-white h-14 md:text-4xl xl:text-4xl xl:text-start">
+          <h2 className="h-12 text-2xl text-center text-white lg:h-auto md:text-4xl xl:text-4xl xl:text-start">
             And i'm a{" "}
             <span className=" text-primary-blue">
               <Typewriter
