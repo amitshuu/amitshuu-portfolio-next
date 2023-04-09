@@ -22,7 +22,7 @@ export const metadata = {
     "Web development services,Full-stack web developer,Landing page design,Website design,Shopify development,Website maintenance,Custom web applications,Web design services",
   title: "Amit Shukrun - Web Developer",
   description:
-    "I am a fullstack web developer offering web development services including creating landing pages and complex web applications, Shopify ecommerce development, website design, and website maintenance. Contact me to bring your website to life!",
+    "I offer web development services such as creating landing pages, complex web apps, Shopify development, web design, and maintenance. Contact me to bring your website to life!",
 };
 
 const poppins = Poppins({
