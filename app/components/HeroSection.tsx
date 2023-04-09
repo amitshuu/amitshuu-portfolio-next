@@ -39,7 +39,12 @@ const HeroSection = () => {
                 </a>
               </button>
               <button className="px-3 py-3 mr-5 text-lg text-black transition-all duration-100 rounded-lg cursor-pointer hover:bg-primary-blue-hover bg-primary-blue hover:transform hover:scale-105 hover:text-white ">
-                <Link to="contact-section" duration={500} smooth={true}>
+                <Link
+                  to="contact-section"
+                  role="link"
+                  duration={500}
+                  smooth={true}
+                >
                   Let's talk
                 </Link>
               </button>
