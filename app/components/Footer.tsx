@@ -5,9 +5,9 @@ import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <footer className="py-12 body-font bg-dark-bg">
+    <footer className="py-12 body-font bg-primary-section">
       <div className="flex flex-col items-center justify-center gap-8">
-        <ul className="flex gap-10">
+        <ul className="flex gap-5 md:gap-10">
           {nav_link.map((links) => {
             return (
               <Link
