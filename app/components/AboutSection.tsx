@@ -7,7 +7,7 @@ const AboutSection = () => {
     <>
       <Element name="about-section">
         <section className="flex items-center justify-between w-full py-24 mt-20 md:py-10 bg-primary-section section-center ">
-          <div className="flex items-center justify-between ">
+          <div className="flex items-center justify-between 3xl:flex-col ">
             <div className="flex">
               <img
                 className="hidden max-w-xl 2xl:block"

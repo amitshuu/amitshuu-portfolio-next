@@ -8,8 +8,8 @@ import { Link, Element } from "react-scroll";
 const HeroSection = () => {
   return (
     <Element name="home">
-      <section className="flex flex-col max-w-full py-2 md:py-10 xl:flex-row section-center">
-        <div className="relative z-10 flex flex-col flex-wrap items-center justify-center w-full pt-10 m-0 xl:items-start ">
+      <section className="flex flex-col w-full py-2 md:py-10 xl:flex-row section-center">
+        <div className="relative z-10 flex flex-col flex-wrap items-center justify-center w-full pt-10 m-0 xl:items-start">
           <p className="py-5 text-4xl text-white md:text-6xl">
             Hello, <span className="text-primary-blue">I'm</span>
           </p>

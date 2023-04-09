@@ -11,7 +11,7 @@ const onDevelopment = process.env.ON_DEVELOPMENT;
 export default function Home() {
   return (
     <main
-      className={`w-full h-full bg-dark-bg ${
+      className={` w-full h-full  ${
         onDevelopment === "true" ? "debug-screens" : null
       }`}
     >

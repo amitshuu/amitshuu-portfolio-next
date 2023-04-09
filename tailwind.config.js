@@ -30,6 +30,9 @@ module.exports = {
       maxWidth: {
         customMaxWidth: "200px",
       },
+      screens: {
+        "3xl": "1921px",
+      },
     },
   },
   plugins: [require("tailwindcss-debug-screens")],
