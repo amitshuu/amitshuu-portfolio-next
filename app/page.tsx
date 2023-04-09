@@ -4,9 +4,9 @@ import HeroSection from "./components/HeroSection";
 import ProjectsSection from "./components/ProjectsSection";
 import ServicesSection from "./components/ServicesSection";
 import SkillsSection from "./components/SkillsSection";
+import Testimonials from "./components/Testimonials";
 
 const onDevelopment = process.env.ON_DEVELOPMENT;
-console.log(onDevelopment === "false");
 
 export default function Home() {
   return (
@@ -20,6 +20,7 @@ export default function Home() {
       <ServicesSection />
       <ProjectsSection />
       <SkillsSection />
+      <Testimonials />
       <ContactSection />
     </main>
   );
