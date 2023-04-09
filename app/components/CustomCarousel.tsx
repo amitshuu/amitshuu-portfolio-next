@@ -24,7 +24,7 @@ const CustomCarousel = ({ children }: { children: any }) => {
       responsive={{
         desktop: {
           breakpoint: {
-            max: 3000,
+            max: 4000,
             min: 1024,
           },
           items: 3,
