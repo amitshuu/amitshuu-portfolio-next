@@ -16,7 +16,7 @@ const HeroSection = () => {
           <h1 className="pb-5 text-4xl text-white md:text-5xl xl:text-5xl">
             Amit Shukrun
           </h1>
-          <h1 className="h-12 text-2xl text-center text-white lg:h-auto md:text-4xl xl:text-4xl xl:text-start">
+          <p className="h-12 text-2xl text-center text-white lg:h-auto md:text-4xl xl:text-4xl xl:text-start">
             And I'm a{" "}
             <span className=" text-primary-blue">
               <Typewriter
@@ -25,12 +25,12 @@ const HeroSection = () => {
                 words={["Fullstack Web Developer."]}
               />
             </span>
-          </h1>
-          <h3 className="py-6 text-xl text-center text-gray-300 md:text-2xl xl:text-start">
+          </p>
+          <h2 className="py-6 text-xl text-center text-gray-300 md:text-2xl xl:text-start">
             Greetings! I'm Amit Shukrun, a Fullstack Web Developer. <br /> I'm
             thrilled to present my portfolio to you and I look forward <br /> to
             working with you on your next project.
-          </h3>
+          </h2>
           <div className="flex flex-col items-center xl:items-start ">
             <div className="flex flex-row mb-5">
               <button className="px-3 py-3 mr-5 text-lg text-black transition-all duration-100 rounded-lg cursor-pointer hover:bg-primary-blue-hover bg-primary-blue hover:transform hover:scale-105 hover:text-white ">
