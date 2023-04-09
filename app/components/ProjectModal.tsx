@@ -38,7 +38,7 @@ const ProjectModal = ({ isModalOpen, projectDetails, closeModal }: IProps) => {
           className="fixed inset-0 flex items-center justify-center opacity-100 bg-primary-section"
         >
           <div
-            className="container z-50 h-full max-w-2xl p-8 overflow-auto lg:max-w-5xl lg:h-auto bg-dark-bg"
+            className="container z-50 h-full max-w-2xl p-8 overflow-auto 3xl:max-w-7xl lg:max-w-5xl lg:h-auto bg-dark-bg"
             ref={modalRef}
           >
             <header className="flex justify-between w-full border-b-2 border-gray-400">
