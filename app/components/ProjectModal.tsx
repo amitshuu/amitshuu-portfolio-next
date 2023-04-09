@@ -53,7 +53,7 @@ const ProjectModal = ({ isModalOpen, projectDetails, closeModal }: IProps) => {
                 <img
                   src={mainImage?.src}
                   className="w-full mb-6 rounded-md h-72"
-                  alt={projectDetails?.projectName}
+                  alt={`amitshuu- web developer - ${projectDetails?.projectName}`}
                 />
                 <div className="flex justify-between w-full mb-10 lg:mb-0 ">
                   {projectDetails?.projectSubImages?.map((image) => {
@@ -65,7 +65,7 @@ const ProjectModal = ({ isModalOpen, projectDetails, closeModal }: IProps) => {
                             ? "border-2 border-primary-blue"
                             : null
                         }`}
-                        alt="project gallery"
+                        alt="amitshuu - web developer - project gallery"
                         onClick={() => setMainImage(image)}
                       />
                     );

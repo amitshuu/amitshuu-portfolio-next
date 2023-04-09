@@ -17,7 +17,7 @@ const HeroSection = () => {
             Amit Shukrun
           </h1>
           <h2 className="h-12 text-2xl text-center text-white lg:h-auto md:text-4xl xl:text-4xl xl:text-start">
-            And i'm a{" "}
+            And I'm a{" "}
             <span className=" text-primary-blue">
               <Typewriter
                 loop={false}

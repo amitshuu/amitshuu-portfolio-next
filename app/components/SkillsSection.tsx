@@ -24,7 +24,11 @@ const SkillsSection = () => {
                 key={skill.title}
                 className="flex flex-col items-center justify-center "
               >
-                <img className="w-20 h-20 mb-3" src={skill.icon.src} />
+                <img
+                  className="w-20 h-20 mb-3"
+                  src={skill.icon.src}
+                  alt="amitshuu - web developer - skill icon"
+                />
                 <span className="inline-block w-10 h-1 mb-4 text-center rounded bg-primary-blue"></span>
 
                 <p className="font-medium tracking-wider text-center text-white uppercase text-md title-font">

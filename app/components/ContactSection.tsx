@@ -12,9 +12,9 @@ const ContactSection = () => {
     <Element name="contact-section">
       <section className="relative flex items-center justify-center w-full p-20 px-4 bg-primary-section ">
         <div className="container flex flex-col items-center">
-          <h1 className="mb-6 text-5xl text-white md:text-6xl">
+          <p className="mb-6 text-5xl text-white md:text-6xl">
             Contact <span className=" text-primary-blue">Me</span>
-          </h1>
+          </p>
           <p className="mb-10 text-xl text-center text-gray-300">
             Feel free to get in touch with me using the form below
           </p>
