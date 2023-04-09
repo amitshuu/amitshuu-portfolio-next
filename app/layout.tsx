@@ -13,8 +13,8 @@ export const metadata = {
     type: "website",
     images: {
       url: "https://amitshuu-portfolio-next.vercel.app/seo_image.png",
-      width: 1200,
-      height: 630,
+      width: 800,
+      height: 600,
       alt: "Amit Shukrun - Web Developer",
     },
   },
