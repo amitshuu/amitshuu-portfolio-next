@@ -17,7 +17,7 @@ const SkillsSection = () => {
           deliver innovative solutions that drive growth and enhance user
           experiences.
         </p>
-        <article className="flex flex-wrap items-center justify-center max-w-xs gap-10 py-10 md:max-w-4xl ">
+        <article className="flex flex-wrap items-center justify-center max-w-sm gap-10 py-10 md:max-w-4xl ">
           {skills.map((skill) => {
             return (
               <div
@@ -25,7 +25,7 @@ const SkillsSection = () => {
                 className="flex flex-col items-center justify-center "
               >
                 <img
-                  className="w-20 h-20 mb-3"
+                  className="mb-3 w-14 h-14 md:w-20 md:h-20"
                   src={skill.icon.src}
                   alt="amitshuu - web developer - skill icon"
                 />
