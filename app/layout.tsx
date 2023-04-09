@@ -1,7 +1,6 @@
 import Navbar from "./components/Navbar";
 import { Varela_Round, Poppins, Lato } from "next/font/google";
 import computer from "./assets/computer.png";
-
 import "././globals.css";
 import Footer from "./components/Footer";
 import Head from "next/head";
@@ -19,7 +18,9 @@ export const metadata = {
       alt: "Amit Shukrun - Web Developer",
     },
   },
-
+  other: {
+    "google-site-verification": "7xdzd4T16clU3DEhxgD69Da7KLy1-uWqj9s8xHWxZWU",
+  },
   keywords:
     "Web development services,Full-stack web developer,Landing page design,Website design,Shopify development,Website maintenance,Custom web applications,Web design services",
   title: "Amit Shukrun - Web Developer",
@@ -40,12 +41,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
-        <meta
-          name="google-site-verification"
-          content="7xdzd4T16clU3DEhxgD69Da7KLy1-uWqj9s8xHWxZWU"
-        />
-      </Head>
       <body
         className={`max-w-[1920px] m-auto bg-dark-bg ${poppins.className}  `}
       >
