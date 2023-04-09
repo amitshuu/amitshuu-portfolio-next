@@ -6,7 +6,7 @@ const AboutSection = () => {
   return (
     <>
       <Element name="about-section">
-        <section className="flex items-center justify-between w-full py-24 mt-20 md:py-10 bg-primary-section section-center ">
+        <section className="flex items-center justify-between w-full py-24 md:py-10 bg-primary-section section-center ">
           <div className="flex items-center justify-between ">
             <div className="flex">
               <img

@@ -10,7 +10,7 @@ export interface IAlert {
 const ContactSection = () => {
   return (
     <Element name="contact-section">
-      <section className="relative flex items-center justify-center w-full p-20 px-4 ">
+      <section className="relative flex items-center justify-center w-full p-20 px-4 3xl:bg-dark-bg ">
         <div className="container flex flex-col items-center">
           <p className="mb-6 text-5xl text-white md:text-6xl">
             Contact <span className=" text-primary-blue">Me</span>

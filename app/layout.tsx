@@ -42,7 +42,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`max-w-[1920px] m-auto bg-dark-bg ${poppins.className}  `}
+        className={`3xl:bg-dark-large-screen max-w-[1920px] m-auto bg-dark-bg ${poppins.className}  `}
       >
         <Navbar />
         {children}
