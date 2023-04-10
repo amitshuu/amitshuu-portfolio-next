@@ -85,6 +85,7 @@ export const services_links = [
 export const projects_links = [
   {
     projectName: "Surfify",
+    inProgress: true,
     projectDesc:
       "Welcome to Surfify! online surfing equipment store! Our passion for surfing inspired us to create a one-stop-shop for all your surfing needs. Our store offers a wide range of high-quality surfboards, wetsuits, and other accessories to help you make the most of your surfing experience.",
     projectImage: Home,
@@ -96,11 +97,7 @@ export const projects_links = [
       surfify_cart,
     ],
     projectCategory: "Shopify",
-    usefulLinks: [
-      {
-        websiteUrl: "https://localhost:3000",
-      },
-    ],
+    usefulLinks: [{}],
   },
   {
     projectName: "Sneakers Shop",
@@ -140,7 +137,7 @@ export const projects_links = [
     projectCategory: "Frontend Developement",
     usefulLinks: [
       {
-        websiteUrl: "https://localhost:3000",
+        gitRepo: "https://github.com/amitshuu/kidsinmotion",
       },
     ],
   },
