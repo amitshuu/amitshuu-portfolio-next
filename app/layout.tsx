@@ -9,10 +9,20 @@ export const metadata = {
     description:
       "I am a fullstack web developer offering web development services including creating landing pages and complex web applications, Shopify ecommerce development, website design, and website maintenance. Contact me to bring your website to life!",
     type: "website",
-    images: {
-      url: "http://www.amitshuu.com/seo_image.png",
-      alt: "Amit Shukrun - Web Developer",
-    },
+    images: [
+      {
+        url: "http://www.amitshuu.com/seo_image.png",
+        width: 800,
+        height: 600,
+        alt: "Amit Shukrun - Web Developer",
+      },
+      {
+        url: "http://www.amitshuu.com/seo_image.png",
+        width: 1800,
+        height: 1600,
+        alt: "Amit Shukrun - Web Developer",
+      },
+    ],
   },
   other: {
     "google-site-verification": "7xdzd4T16clU3DEhxgD69Da7KLy1-uWqj9s8xHWxZWU",
