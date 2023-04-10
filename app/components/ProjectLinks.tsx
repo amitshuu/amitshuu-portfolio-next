@@ -11,10 +11,7 @@ const ProjectLinks = ({ links }: Props) => {
   return (
     <div className="flex w-full">
       {links.map((link) => (
-        <div
-          key={link.websiteUrl || link.gitRepo || link.youtubeLink}
-          className="flex"
-        >
+        <div key={crypto.randomUUID()} className="flex">
           {link.gitRepo && (
             <a href={link.gitRepo} target="_blank">
               <AiFillGithub className="mr-3 text-3xl transition-all duration-100 rounded-lg cursor-pointer text-primary-blue hover:text-primary-blue-hover hover:transform hover:scale-105 " />
