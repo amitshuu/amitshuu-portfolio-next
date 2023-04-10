@@ -14,6 +14,7 @@ export interface IProject {
   projectSubImages?: StaticImageData[];
   projectCategory: string;
   usefulLinks?: IUsefulLinks[];
+  inProgress?: boolean;
 }
 
 export interface IUsefulLinks {
