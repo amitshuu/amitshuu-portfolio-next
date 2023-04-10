@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 export const useMobile = (callback: VoidFunction) => {
   const [windowDimension, setWindowDimension] = useState(0);
@@ -14,12 +14,14 @@ export const useMobile = (callback: VoidFunction) => {
       setWindowDimension(window.innerWidth);
     }
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
     if (!isMobile) {
       callback();
     }
-    return () => window.removeEventListener('resize', handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, [isMobile, callback]);
+
+  return isMobile;
 };
 
 export const useForm = (callback: () => void, initialState: any) => {
@@ -43,4 +45,21 @@ export const useForm = (callback: () => void, initialState: any) => {
     onSubmit,
     setValues,
   };
+};
+
+export const usePageScroll = () => {
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 150);
+      setPrevScrollPos(currentScrollPos);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [prevScrollPos]);
+
+  return visible;
 };
