@@ -13,8 +13,8 @@ export const metadata = {
     type: "website",
     images: {
       url: "http://www.amitshuu.com/seo_image.png",
-      width: 800,
-      height: 600,
+      width: 1200,
+      height: 630,
       alt: "Amit Shukrun - Web Developer",
     },
   },
