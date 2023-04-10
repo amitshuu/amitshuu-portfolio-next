@@ -1,10 +1,10 @@
 "use client";
 
-import { nav_link } from "../constants/constants_links";
-import { useState } from "react";
-import { AiOutlineMenu } from "react-icons/ai";
+import { useEffect, useState } from "react";
+import { useMobile, usePageScroll } from "../hooks/customHooks";
 import MobileMenu from "./MobileMenu";
-import { useMobile } from "../hooks/customHooks";
+import { AiOutlineMenu } from "react-icons/ai";
+import { nav_link } from "../constants/constants_links";
 import { Link } from "react-scroll";
 
 const Navbar = () => {
@@ -12,17 +12,19 @@ const Navbar = () => {
 
   useMobile(() => setOpenMobileNav(false));
 
+  const visible = usePageScroll();
+
+  const navClass = `${
+    openMobileNav ? "" : visible ? "sticky opacity-100" : "opacity-0"
+  } top-0 z-50 w-full flex items-center justify-between py-10 shadow-md bg-dark-bg section-center transition duration-300`;
+
   return (
     <>
       <MobileMenu
         setOpenMobileNav={setOpenMobileNav}
         openMobileNav={openMobileNav}
       />
-      <nav
-        className={`${
-          openMobileNav ? "" : "sticky"
-        } top-0 z-50 flex items-center md:static justify-between py-10 shadow-md bg-dark-bg section-center`}
-      >
+      <nav className={navClass}>
         <div className="flex justify-between w-full px-4 lg:px-0 ">
           <p className="text-4xl text-white">amitshuu</p>
           <AiOutlineMenu
