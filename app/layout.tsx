@@ -11,8 +11,6 @@ export const metadata = {
     type: "website",
     images: {
       url: "http://www.amitshuu.com/seo_image.png",
-      width: 1200,
-      height: 630,
       alt: "Amit Shukrun - Web Developer",
     },
   },
