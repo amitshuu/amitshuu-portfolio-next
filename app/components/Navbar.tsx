@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useMobile, usePageScroll } from "../hooks/customHooks";
 import MobileMenu from "./MobileMenu";
 import { AiOutlineMenu } from "react-icons/ai";
