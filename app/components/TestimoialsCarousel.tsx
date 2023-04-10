@@ -23,7 +23,10 @@ const TestimoialsCarousel = ({
       >
         {testimonials.map((item) => {
           return (
-            <article className="flex flex-col items-center justify-center flex-shrink-0 w-full px-10 mt-12 rounded-lg md:mt-10 md:p-10 overflow-none md:bg-dark-bg">
+            <article
+              key={item.description}
+              className="flex flex-col items-center justify-center flex-shrink-0 w-full px-10 mt-12 rounded-lg md:mt-10 md:p-10 overflow-none md:bg-dark-bg"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"

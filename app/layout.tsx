@@ -1,9 +1,7 @@
 import Navbar from "./components/Navbar";
-import { Varela_Round, Poppins, Lato } from "next/font/google";
-import computer from "./assets/computer.png";
+import { Poppins } from "next/font/google";
 import "././globals.css";
 import Footer from "./components/Footer";
-import Head from "next/head";
 
 export const metadata = {
   openGraph: {

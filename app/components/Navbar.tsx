@@ -33,7 +33,7 @@ const Navbar = () => {
         <ul className="hidden px-10 text-xl cursor-pointer md:flex">
           {nav_link.map((navLink) => {
             return (
-              <li>
+              <li key={navLink.name}>
                 <Link
                   to={navLink.to}
                   duration={500}

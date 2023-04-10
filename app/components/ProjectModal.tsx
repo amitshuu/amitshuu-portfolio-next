@@ -30,6 +30,7 @@ const ProjectModal = ({ isModalOpen, projectDetails, closeModal }: IProps) => {
       document.body.style.overflow = "auto";
     };
   }, [isModalOpen]);
+
   return (
     <div className="fixed inset-0 z-50 w-full h-screen ">
       <div className="z-50 flex items-center justify-center ">
@@ -59,6 +60,7 @@ const ProjectModal = ({ isModalOpen, projectDetails, closeModal }: IProps) => {
                   {projectDetails?.projectSubImages?.map((image) => {
                     return (
                       <img
+                        key={crypto.randomUUID()}
                         src={image.src}
                         className={` cursor-pointer object-cover w-1/6 rounded-md h-14 ${
                           image === mainImage
@@ -88,8 +90,13 @@ const ProjectModal = ({ isModalOpen, projectDetails, closeModal }: IProps) => {
                     Useful Links:
                     <span className="flex">
                       <div className="flex items-center">
-                        {projectDetails?.usefulLinks && (
+                        {projectDetails?.usefulLinks &&
+                        !projectDetails?.inProgress ? (
                           <ProjectLinks links={projectDetails.usefulLinks} />
+                        ) : (
+                          <p className="text-primary-blue">
+                            In progress. Stay tuned!
+                          </p>
                         )}
                       </div>
                     </span>
