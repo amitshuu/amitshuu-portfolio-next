@@ -20,7 +20,7 @@ const AboutSection = () => {
                 About <span className="text-primary-blue">Me</span>
               </p>
               <p className="hidden mb-5 text-xl font-normal leading-loose text-center text-gray-300 md:block md:text-xl xl:w-3/4">
-                Hi, my name is Amit, and I'm a 23-year-old full-stack web
+                Hi, my name is Amit, and I'm a 23-year-old full-stack webb
                 developer with expertise in both front-end and back-end
                 development. I specialize in a range of technologies, including
                 JavaScript, TypeScript, React, Node.js, REST Api, GraphQL and
