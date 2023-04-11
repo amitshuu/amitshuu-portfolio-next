@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 
 export const metadata = {
   openGraph: {
+    url: "https://www.amitshuu.com/",
     title: "Amit Shukrun - Web Developer",
     description:
       "I am a fullstack web developer offering web development services including creating landing pages and complex web applications, Shopify ecommerce development, website design, and website maintenance. Contact me to bring your website to life!",
