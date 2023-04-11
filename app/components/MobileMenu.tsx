@@ -31,7 +31,6 @@ const MobileMenu = ({ setOpenMobileNav, openMobileNav }: Props) => {
     document.body.style.position = "static";
   };
 
-  console.log(openMobileNav);
   return (
     <aside
       className={`fixed flex top-0 left-0 w-full h-full z-50 md:hidden  flex-col gap-20 px-8  overflow-hidden bg-dark-bg transition-all duration-500 `}

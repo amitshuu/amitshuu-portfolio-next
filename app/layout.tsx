@@ -29,7 +29,7 @@ export const metadata = {
     "google-site-verification": "7xdzd4T16clU3DEhxgD69Da7KLy1-uWqj9s8xHWxZWU",
   },
   keywords:
-    "Web development services,Full-stack web developer,Landing page design,Website design,Shopify development,Website maintenance,Custom web applications,Web design services",
+    "Amit Shukrun, amitshuu, Amit, Shukrun, Web development services,Full-stack web developer,Landing page design,Website design,Shopify development,Website maintenance,Custom web applications,Web design services",
   title: "Amit Shukrun - Web Developer",
   description:
     "I offer web development services such as creating landing pages, complex web apps, Shopify development, web design, and maintenance. Contact me to bring your website to life!",
