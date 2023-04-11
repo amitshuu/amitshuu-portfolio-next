@@ -17,13 +17,21 @@ const MobileMenu = ({ setOpenMobileNav, openMobileNav }: Props) => {
       document.body.style.position = "fixed";
     } else {
       document.body.style.overflow = "auto";
+      document.body.style.position = "static";
     }
+
     return () => {
       document.body.style.overflow = "auto";
-      document.body.style.position = "";
+      document.body.style.position = "static";
     };
   }, [openMobileNav]);
 
+  const handleLinkClick = () => {
+    setOpenMobileNav(false);
+    document.body.style.position = "static";
+  };
+
+  console.log(openMobileNav);
   return (
     <aside
       className={`fixed flex top-0 left-0 w-full h-full z-50 md:hidden  flex-col gap-20 px-8  overflow-hidden bg-dark-bg transition-all duration-500 `}
@@ -46,10 +54,12 @@ const MobileMenu = ({ setOpenMobileNav, openMobileNav }: Props) => {
               >
                 <Link
                   to={navLink.to}
+                  onClick={handleLinkClick}
                   duration={500}
+                  offset={-50}
+                  delay={100}
                   smooth={true}
                   role="link"
-                  onClick={() => setOpenMobileNav(false)}
                 >
                   {navLink.name}
                 </Link>
