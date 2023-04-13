@@ -58,7 +58,7 @@ const HeroSection = () => {
           <img
             className="max-w-xs xl:max-w-lg xl:block animate-up-down"
             src={shuki_hero_image.src}
-            alt="amitshuu - fullstack web devleloper - avatar"
+            alt="Amit Shukrun - Web Developer - amitshuu - עמית שוקרון"
           />
         </div>
       </section>
