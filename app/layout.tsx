@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 export const metadata = {
   openGraph: {
     url: "https://www.amitshuu.com/",
-    title: "Amit Shukrun - Web Developer",
+    title: "Amit Shukrun - Web Developer | עמית שוקרון - מפתח אתרים",
     description:
       "I am a fullstack web developer offering web development services including creating landing pages and complex web applications, Shopify ecommerce development, website design, and website maintenance. Contact me to bring your website to life!",
     type: "website",
@@ -29,8 +29,8 @@ export const metadata = {
     "google-site-verification": "7xdzd4T16clU3DEhxgD69Da7KLy1-uWqj9s8xHWxZWU",
   },
   keywords:
-    "Amit Shukrun, amitshuu, Amit, Shukrun, Web development services,Full-stack web developer,Landing page design,Website design,Shopify development,Website maintenance,Custom web applications,Web design services",
-  title: "Amit Shukrun - Web Developer",
+    "Amit Shukrun, amitshuu, Amit, Shukrun, Web development services, Full-stack web developer, Landing page design, Website design, Shopify development, Website maintenance, Custom web applications, Web design services, עמית שוקרון ,שוקרון",
+  title: "Amit Shukrun - Web Developer | עמית שוקרון - מפתח אתרים",
   description:
     "I offer web development services such as creating landing pages, complex web apps, Shopify development, web design, and maintenance. Contact me to bring your website to life!",
 };
