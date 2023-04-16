@@ -24,12 +24,12 @@ const Testimonials = () => {
     <section className="flex flex-col items-center justify-center w-full py-20 overflow-hidden lg:px-20 bg-primary-section">
       <div className="flex flex-col justify-between w-full xl:px-16 lg:flex-row">
         <div className="block">
-          <h3 className="mb-4 text-2xl text-center uppercase md:mb-8 lg:text-start lg:text-4xl text-primary-blue">
+          <p className="mb-4 text-2xl text-center uppercase md:mb-8 lg:text-start lg:text-4xl text-primary-blue">
             Testimonials
-          </h3>
-          <h2 className="mb-0 text-4xl text-center text-white md:mb-12 lg:text-start lg:text-6xl">
+          </p>
+          <p className="mb-0 text-4xl text-center text-white md:mb-12 lg:text-start lg:text-6xl">
             What Client Say
-          </h2>
+          </p>
         </div>
         <div className="items-center justify-center hidden gap-10 px-10 md:flex">
           <div className="flex items-center justify-center">

@@ -26,7 +26,9 @@ const Navbar = () => {
       />
       <nav className={navClass}>
         <div className="flex justify-between w-full px-4 lg:px-0 ">
-          <p className="text-4xl text-white">amitshuu</p>
+          <Link to="home" duration={500} smooth={true}>
+            <p className="text-4xl text-white cursor-pointer ">amitshuu</p>
+          </Link>
           <AiOutlineMenu
             onClick={() => setOpenMobileNav(true)}
             className="flex text-4xl cursor-pointer md:hidden text-primary-blue hover:text-primary-blue-hover"
