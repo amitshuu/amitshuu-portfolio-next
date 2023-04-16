@@ -8,20 +8,20 @@ export const metadata = {
     url: "https://www.amitshuu.com/",
     title: "Amit Shukrun - Web Developer | עמית שוקרון - מפתח אתרים",
     description:
-      "I am a fullstack web developer offering web development services including creating landing pages and complex web applications, Shopify ecommerce development, website design, and website maintenance. Contact me to bring your website to life!",
+      "I'm Amit Shukrun, a fullstack web developer offering landing page creation, web app development, Shopify ecommerce and more. Let's build your website!",
     type: "website",
     images: [
       {
         url: "http://www.amitshuu.com/seo_image.png",
         width: 800,
         height: 600,
-        alt: "Amit Shukrun - Web Developer - amitshuu - עמית שוקרון",
+        alt: "Amit Shukrun amitshuu עמית שוקרון",
       },
       {
         url: "http://www.amitshuu.com/seo_image.png",
-        width: 1800,
-        height: 1600,
-        alt: "Amit Shukrun - Web Developer - amitshuu - עמית שוקרון",
+        width: 1200,
+        height: 630,
+        alt: "Amit Shukrun amitshuu עמית שוקרון",
       },
     ],
   },
@@ -29,10 +29,10 @@ export const metadata = {
     "google-site-verification": "7xdzd4T16clU3DEhxgD69Da7KLy1-uWqj9s8xHWxZWU",
   },
   keywords:
-    "Amit Shukrun, amitshuu, Amit, Shukrun, Web development services, Full-stack web developer, Landing page design, Website design, Shopify development, Website maintenance, Custom web applications, Web design services, עמית שוקרון ,שוקרון",
+    "Amit Shukrun, amitshuu, Web development, Full-stack development, Landing page design, Website design, Shopify development, Website maintenance, Custom web applications, Web design services, עמית שוקרון, שוקרון",
   title: "Amit Shukrun - Web Developer | עמית שוקרון - מפתח אתרים",
   description:
-    "I offer web development services such as creating landing pages, complex web apps, Shopify development, web design, and maintenance. Contact me to bring your website to life!",
+    "I'm Amit Shukrun, a fullstack web developer offering landing page creation, web app development, Shopify ecommerce and more. Let's build your website!",
 };
 
 const poppins = Poppins({
