@@ -11,12 +11,12 @@ export const metadata = {
       "I'm Amit Shukrun, a fullstack web developer offering landing page creation, web app development, Shopify ecommerce and more. Let's build your website!",
     type: "website",
     images: [
-      {
-        url: "http://www.amitshuu.com/laptop.png",
-        width: 800,
-        height: 600,
-        alt: "Amit Shukrun amitshuu עמית שוקרון",
-      },
+      // {
+      //   url: "http://www.amitshuu.com/laptop.png",
+      //   width: 800,
+      //   height: 600,
+      //   alt: "Amit Shukrun amitshuu עמית שוקרון",
+      // },
       {
         url: "http://www.amitshuu.com/laptop.png",
         width: 1200,
