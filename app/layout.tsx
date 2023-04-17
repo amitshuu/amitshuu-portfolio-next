@@ -12,13 +12,13 @@ export const metadata = {
     type: "website",
     images: [
       {
-        url: "http://www.amitshuu.com/seo_image.png",
+        url: "http://www.amitshuu.com/laptop.png",
         width: 800,
         height: 600,
         alt: "Amit Shukrun amitshuu עמית שוקרון",
       },
       {
-        url: "http://www.amitshuu.com/seo_image.png",
+        url: "http://www.amitshuu.com/laptop.png",
         width: 1200,
         height: 630,
         alt: "Amit Shukrun amitshuu עמית שוקרון",
